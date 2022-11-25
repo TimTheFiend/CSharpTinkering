@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTinkering", "CSharpTinkering\CSharpTinkering.csproj", "{40F9A93F-4049-4571-A2E6-B676042BDEDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinkeringTest", "TinkeringTest\TinkeringTest.csproj", "{F5FA79D5-8707-4E2C-AFDE-1572D5D2887A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F9A93F-4049-4571-A2E6-B676042BDEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F9A93F-4049-4571-A2E6-B676042BDEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F9A93F-4049-4571-A2E6-B676042BDEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F9A93F-4049-4571-A2E6-B676042BDEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FA79D5-8707-4E2C-AFDE-1572D5D2887A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FA79D5-8707-4E2C-AFDE-1572D5D2887A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FA79D5-8707-4E2C-AFDE-1572D5D2887A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FA79D5-8707-4E2C-AFDE-1572D5D2887A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE7797E4-7ECF-4630-9CA1-34EF4FFE68B9}
+	EndGlobalSection
+EndGlobal

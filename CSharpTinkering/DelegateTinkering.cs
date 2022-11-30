@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,7 @@ namespace CSharpTinkering
         static void DisplayPeople(string title, List<Person> people, FilterDelegate filter)
         {
             Console.WriteLine(title);
+
 
             foreach (Person p in people)
             {

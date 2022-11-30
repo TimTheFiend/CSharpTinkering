@@ -19,11 +19,13 @@ namespace CSharpTinkering
             return foo?.CompareTo(0) >= 0 ? true : false;
         }
 
-        public static ConditionalClass ReturnClassOrNull(bool isReturningNull)
+        public static ConditionalClass? ReturnClassOrNull(bool isReturningNull)
         {
             var obj = new ConditionalClass();
             return isReturningNull ? obj : null;
         }
+
+
 
     }
 

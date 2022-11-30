@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,35 +9,32 @@ namespace CSharpTinkering
 {
     internal class MoreDelegateTinkering
     {
-        public delegate bool OneArgBoolDelegate(bool b);
 
-        public void Main(int? what = null)
+        public static void UseEncapsulatedFunction(Func<bool> action)
         {
-            OneArgBoolDelegate lmao;
-
-            if (what != null)
+            if (action())
             {
-                lmao = IsTrue;
+                Console.WriteLine("action returns true");
             }
             else
             {
-                lmao = IsFalse;
+                Console.WriteLine("action returns false");
             }
-
-            lmao(true);
-
         }
 
-        private bool IsTrue(bool ba)
+        public static Func<bool> GetFunction()
         {
-            return ba;
+            return ReturnFalse;
         }
 
-        private bool IsFalse(bool ba)
+        private static bool ReturnFalse()
         {
             return false;
         }
 
-
+        public static bool IsTrue()
+        {
+            return true;
+        }
     }
 }
